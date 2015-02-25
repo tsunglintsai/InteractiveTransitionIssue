@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="WA4-2A-jnH">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="S7s-Az-8aH">
+                                <rect key="frame" x="0.0" y="506" width="320" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="7.621079918e-05" green="0.45162108020000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="HMm-HG-wcs" appends="YES" id="CbH-lf-Ix0"/>
+                                    <outletCollection property="gestureRecognizers" destination="934-XS-tB2" appends="YES" id="Jva-A3-EkF"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eTM-nu-WPn"/>
+                    <connections>
+                        <outlet property="miniContainer" destination="S7s-Az-8aH" id="72N-Eh-UlE"/>
+                        <outlet property="panGestureRecoginizer" destination="934-XS-tB2" id="vqV-bC-AcR"/>
+                        <outlet property="tapGuesture" destination="HMm-HG-wcs" id="KJo-DC-g6Y"/>
+                        <segue destination="0Lu-1j-cuj" kind="push" identifier="pushNP" id="BIk-6w-FZO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="HMm-HG-wcs"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="934-XS-tB2"/>
+            </objects>
+            <point key="canvasLocation" x="560" y="375"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="a8l-48-scl">
+            <objects>
+                <viewController id="0Lu-1j-cuj" customClass="NPViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pCq-PQ-RqU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="TWO-vD-gde">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="7.621079918e-05" green="0.45162108020000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eBP-bn-nO1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2tn-OB-bVb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="968" y="375"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Oty-Eb-hbd">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WA4-2A-jnH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="y4W-Wv-QVt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="PDu-3a-nso"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vzP-qT-ZBd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28" y="375"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

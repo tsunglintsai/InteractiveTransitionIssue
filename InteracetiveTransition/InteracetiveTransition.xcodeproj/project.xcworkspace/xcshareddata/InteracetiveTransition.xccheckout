@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6ACAD9DC-C269-48AE-8608-03BE8F679453</string>
+	<key>IDESourceControlProjectName</key>
+	<string>InteracetiveTransition</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>173001C5FF66911439AE5967EA3AC34C3711E714</key>
+		<string>https://github.com/tsunglintsai/InteractiveTransition.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>InteracetiveTransition/InteracetiveTransition.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>173001C5FF66911439AE5967EA3AC34C3711E714</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tsunglintsai/InteractiveTransition.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>173001C5FF66911439AE5967EA3AC34C3711E714</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>173001C5FF66911439AE5967EA3AC34C3711E714</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Interacetive%20Transition</string>
+		</dict>
+	</array>
+</dict>
+</plist>
