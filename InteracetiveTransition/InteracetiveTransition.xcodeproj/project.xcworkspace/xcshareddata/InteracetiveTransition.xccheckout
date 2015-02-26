@@ -12,20 +12,24 @@
 	<dict>
 		<key>173001C5FF66911439AE5967EA3AC34C3711E714</key>
 		<string>https://github.com/tsunglintsai/InteractiveTransition.git</string>
+		<key>DD74954C80054BC384F7C15A0301A26DBF40C584</key>
+		<string>https://github.com/tsunglintsai/InteractiveTransitionIssue.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>InteracetiveTransition/InteracetiveTransition.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>173001C5FF66911439AE5967EA3AC34C3711E714</key>
+		<string>../../../../Interacetive%20Transition</string>
+		<key>DD74954C80054BC384F7C15A0301A26DBF40C584</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/tsunglintsai/InteractiveTransition.git</string>
+	<string>https://github.com/tsunglintsai/InteractiveTransitionIssue.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>173001C5FF66911439AE5967EA3AC34C3711E714</string>
+	<string>DD74954C80054BC384F7C15A0301A26DBF40C584</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>173001C5FF66911439AE5967EA3AC34C3711E714</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Interacetive%20Transition</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DD74954C80054BC384F7C15A0301A26DBF40C584</string>
+			<key>IDESourceControlWCCName</key>
+			<string>InteractiveTransitionIssue</string>
 		</dict>
 	</array>
 </dict>

@@ -33,9 +33,7 @@
     self.isTappedTransition = YES;
     UIViewController *controller = [[UIViewController alloc]init];
     controller.view.backgroundColor = [UIColor whiteColor];
-//    [self performSegueWithIdentifier:@"pushNP" sender:self];
     [self.navigationController pushViewController:controller animated:YES];
-
 }
 
 - (void)pan:(UIPanGestureRecognizer*)panGuesture{
@@ -47,13 +45,11 @@
     {
         case UIGestureRecognizerStateBegan:
             NSLog(@"======================UIGestureRecognizerStateBegan");
-//            [self performSegueWithIdentifier:@"pushNP" sender:panGuesture];
             [self.navigationController pushViewController:controller animated:YES];
             break;
         case UIGestureRecognizerStateChanged:
             NSLog(@"======================UIGestureRecognizerStateChanged");
             float percentageOfPan = [self percentageOfPan:touchLocation];
-            NSLog(@"=======percentageOfPan:%f",percentageOfPan);
             [self.transition updateInteractiveTransition:percentageOfPan];
             break;
         case UIGestureRecognizerStateCancelled:
@@ -91,7 +87,7 @@
                                    animationControllerForOperation:(UINavigationControllerOperation)operation
                                                 fromViewController:(UIViewController *)fromVC
                                                   toViewController:(UIViewController *)toVC {
-    if ([toVC isKindOfClass:[NPViewController class]]) {
+    if ([toVC isKindOfClass:[UIViewController class]]) {
         ToNPTransition *transition = [[ToNPTransition alloc]init];
         return transition;
     }
